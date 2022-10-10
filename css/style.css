@@ -1,0 +1,758 @@
+*{
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+
+        /* =====================================
+                common part css end
+        ========================================= */
+
+
+
+         /* =====================================
+                header part css Start
+        ========================================= */ 
+header{
+    background-color: #0872b9;
+    height: 32px;
+}
+.header-text h6{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-icon ul li a{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 15px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.header-icon ul li:last-child a{
+    padding-right: 0;
+}
+.header-icon ul li a:hover{
+    color: black;
+    transform: scale(1.4) rotate(360deg);
+    -webkit-transform: scale(1.4) rotate(360deg);
+    -moz-transform: scale(1.4) rotate(360deg);
+    -ms-transform: scale(1.4) rotate(360deg);
+    -o-transform: scale(1.4) rotate(360deg);
+}
+
+        /* =====================================
+                header part css end
+        ========================================= */
+
+        /* =====================================
+                    menu part css start
+        ========================================= */
+nav{
+    padding: 21px 0;
+}
+.logo img{
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    cursor: pointer;
+}
+.logo img:hover{
+   transform: scaleX(-1);
+   -webkit-transform: scaleX(-1);
+   -moz-transform: scaleX(-1);
+   -ms-transform: scaleX(-1);
+   -o-transform: scaleX(-1);
+}
+.menu ul li a{
+    padding: 0 15px;
+    font-weight: 500;
+    color: #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: #4488c3;
+    transform: translateY(5px) rotate(10deg);
+    -webkit-transform: translateY(5px) rotate(10deg);
+    -moz-transform: translateY(5px) rotate(10deg);
+    -ms-transform: translateY(5px) rotate(10deg);
+    -o-transform: translateY(5px) rotate(10deg);
+}
+
+
+
+        /* =====================================
+                    menu part css end
+        ========================================= */
+
+        /* =====================================
+                    banner part css start
+        ========================================= */
+.banner{
+    padding: 88px 0;
+    background: url(../images/banner1.png) no-repeat center / cover;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.banner::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.404);
+    z-index: -1;
+}
+.banner-text h2{
+    font-size: 50px;
+    color: #fff;
+}
+.banner-text h1{
+    font-size: 70px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.banner-text p{
+    width: 540px;
+    margin-left: auto;
+    color: #fff;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 28px;
+}
+.banner-btn a{
+    padding: 9px 21px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0872b9;
+    border: 2px  solid transparent;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+#btn1{
+    margin-right: 20px;
+}
+.banner-btn a:hover{
+    background-color:  transparent;
+    border: 2px solid #fff;
+}
+        /* =====================================
+                    banner part css end
+        ========================================= */
+
+        /* =====================================
+                    About part css start
+        ========================================= */
+.about{
+    padding: 60px 0;
+}
+.about-head{
+    position: relative;
+}
+.about-head img {
+    position: absolute;
+    top: 105%;
+    left: 47.8%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+        /* =====================================
+                    About part css end
+        ========================================= */
+
+        /* =====================================
+                    service part css start
+        ========================================= */
+
+.service{
+    padding-bottom: 60px;
+}
+.ser-head{
+    position: relative;
+}
+.ser-head img {
+    position: absolute;
+    top: 105%;
+    left: 47.2%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.ser-main{
+    margin-top: 68px;
+}
+.ser-text{
+    position: relative;
+    padding: 55px 20px 20px 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+.ser-text h4{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 25px;
+    letter-spacing: -1px;
+}
+.ser-text p{
+    width: 330px;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 28px;
+}
+.ser-icon{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    border: 3px solid #fff;
+    line-height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #f1f1f1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.ser-icon::after{
+    position: absolute;
+    content: '';
+    width: 78px;
+    height: 78px;
+    top: 33.8px;
+    left: 50%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.ser-icon::before{
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 75px;
+    top: 33px;
+    left: 50%;
+    border: 3px solid #d1d1d1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.ser-text:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+.ser-text:hover .ser-icon{
+    background-color: #5bc5f4;
+}
+.ser-text:hover .ser-icon::before{
+    border: 3px solid #5bc5f4;
+}
+        /* =====================================
+                    service part css end
+        ========================================= */
+
+        /* =====================================
+                    Portfolio part css start
+        ========================================= */
+.portfolio{
+
+}
+.port-head{
+    position: relative;
+}
+.port-head img {
+    position: absolute;
+    top: 105%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.port-img1{
+    position: relative;
+    margin-top: 22px;
+}
+.port-main{
+    margin-top: 30px;
+}
+.port-img1 img{
+    width: 100%;
+}
+.port-overlay{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.644);
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.port-overlay i{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 50px;
+   height: 50px;
+   background-color: #fff;
+   text-align: center;
+   line-height: 50px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+   transition: 0.5s;
+   -webkit-transition: 0.5s;
+   -moz-transition: 0.5s;
+   -ms-transition: 0.5s;
+   -o-transition: 0.5s;
+}
+.port-item:hover .port-overlay{
+    height: 100%;
+    opacity: 1;
+}
+.port-overlay i:hover{
+    background-color: #5bc5f4;
+    color: #fff;
+}
+        /* =====================================
+                    Portfolio part css end
+        ========================================= */
+
+         /* =====================================
+                    team part css start
+        ========================================= */
+
+.team{
+    padding: 60px 0;
+}
+.team-head{
+    position: relative;
+}
+.team-head img {
+    position: absolute;
+    top: 105%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.team-main{
+    margin-top: 30px;
+}
+.team-item{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+.team-img{
+    position: relative;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.team-img img{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.team-overlay{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    bottom: 0;
+    left: 65%;
+    background-color: rgba(0, 0, 0, 0.788);
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.team-text{
+    text-transform: uppercase;
+}
+.team-text h5{
+    font-size: 24px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    letter-spacing: -1.5px;
+}
+.team-text h6{
+    font-size: 16px;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+}
+.team-overlay ul{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.team-overlay ul li a{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.team-overlay ul li a:hover{
+    transform: scaleX(-1) ;
+    background-color: #5bc5f4;
+    border: 1px solid transparent;
+    -webkit-transform: scaleX(-1) ;
+    -moz-transform: scaleX(-1) ;
+    -ms-transform: scaleX(-1) ;
+    -o-transform: scaleX(-1) ;
+}
+.team-img:hover{
+    transform: translateY(-6px);
+    border-radius: 10px;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+}
+.team-item:hover .team-overlay{
+    width: 35.5%;
+    opacity: 1;
+}
+.team-item:hover .team-text h5{
+    color: #5bc5f4;
+    letter-spacing: normal;
+}
+.team-item:hover .team-text h6{
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+}
+
+         /* =====================================
+                    team part css end
+        ========================================= */
+
+        /* =====================================
+                    testi part css end
+        ========================================= */
+.testi{
+    padding-bottom: 60px;
+}
+.testi-main{
+    margin-top: 30px;
+}
+.testi-item{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.testi-head{
+    position: relative;
+}
+.testi-img{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.testi-head img {
+    position: absolute;
+    top: 105%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.testi-text{
+    padding: 20px 35px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+}
+.testi-text::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #f1f1f1;
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    -o-transform: translate(-50%, -50%) rotate(45deg);
+}
+.testi-img{
+    padding-bottom: 35px;
+}
+.testi-img img{
+    width: 15%;
+}
+.testi-text{
+    font-family: 'Oswald', sans-serif;
+}
+.testi-text h3{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.testi-text i{
+    font-size: 12px;
+    color: #5bc5f4;
+    padding-bottom: 15px;
+}
+.testi-text h6{
+    padding-bottom: 20px;
+}
+.testi-text p{
+    font-size: 15px;
+    width: 490px;
+    margin: 0 auto;
+    line-height: 28px;
+}
+.testi-item:hover .testi-img{
+    transform: scale(1.1) translateY(-10px);
+    -webkit-transform: scale(1.1) translateY(-10px);
+    -moz-transform: scale(1.1) translateY(-10px);
+    -ms-transform: scale(1.1) translateY(-10px);
+    -o-transform: scale(1.1) translateY(-10px);
+}
+        /* =====================================
+                    testi part css end
+        ========================================= */
+
+
+        /* =====================================
+                    footer part css start
+        ========================================= */
+footer{
+    padding: 20px 0;
+    background-color: #353535;
+}
+.footer-head h5{
+    color: #fff;
+}
+.footer-img img{
+    padding-bottom: 35px;
+}
+.footer-text{
+    color: #fff;
+    font-size: 15px;
+}
+.footer-text p{
+    width: 290px;
+}
+.footer-text span{
+    width: 250px;
+}
+.footer2-img{
+    margin-top: 20px;
+}
+.footer2-img img{
+    width: 40px;
+    height: 40px;
+}
+.footer2-text{
+    margin-top: 19px;
+    margin-left: 15px;
+}
+.footer2-text p{
+    margin-top: -18px;
+    color: #fff;
+    font-size: 13px;
+}
+.footer3-main{
+    margin-left: -40px;
+    margin-top: 20px;
+}
+.footer3-1 ul li a{
+    padding-bottom: 15px;
+    color: #fff;
+}
+.footer3-1 ul li a:hover{
+    color: #5bc5f4;
+}
+.footer3-2 ul li a{
+    margin-left: -60px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.footer3-2 ul li a:hover{
+    color: #5bc5f4;
+}
+.footer-img4{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.footer-img4 img{
+    margin-bottom: 10px;
+}
+.last-footer{
+    padding: 15px 0;
+    background-color: #555555;
+}
+.last-footer-text P{
+    color: #fff;
+}
+.last-footer-text span{
+    color: #5bc5f4;
+}
+        /* =====================================
+                    footer part css end
+        ========================================= */
